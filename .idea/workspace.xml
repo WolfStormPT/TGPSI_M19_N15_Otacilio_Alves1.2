@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="483bc9cb-6ddf-4e7e-909e-59f934d66b5c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagens/LanHouse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagens/gamers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Computador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/ComputadorDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/ConfiguraçaoDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/PrincipalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Reserva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/ReservaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Transacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/TransacoesDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/UsuarioDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/tgpsi_m19_n15_otacilio_alves1/Login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/tgpsi_m19_n15_otacilio_alves1/Principal.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/tgpsi_m19_n15_otacilio_alves1/imagens/LanHouse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/tgpsi_m19_n15_otacilio_alves1/imagens/gamers.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Settings.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2fuSkx42c74esrYig2ycMW4tGlY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/AE Aqua Alba/Documents/ExerciciosJava/exercicios JavaFX/PSI08_15_Otacilio_Alves",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.28808594",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.build"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AE Aqua Alba\Documents\ExerciciosJava\TGPSI_M19_N15_Otacilio_Alves1\src\main\resources\org\example\tgpsi_m19_n15_otacilio_alves1\imagens" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\AE Aqua Alba\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="483bc9cb-6ddf-4e7e-909e-59f934d66b5c" name="Changes" comment="" />
+      <created>1714649618027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714649618027</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/PrincipalController.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.tgpsi_m19_n15_otacilio_alves1.PrincipalController">
+   <left>
+      <AnchorPane prefHeight="600.0" prefWidth="230.0" style="-fx-background-color: #6e0ead;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="120.0" fitWidth="210.0" layoutX="10.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../imagens/LanHouse.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnTransacoes" layoutX="60.0" layoutY="447.0" mnemonicParsing="false" onAction="#onActionTransacoes" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: fff;" text="Transações" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="btnUsuario" layoutX="60.0" layoutY="235.0" mnemonicParsing="false" onAction="#onActionUsuario" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: transparent; -fx-border-color: fff;" text="Usuário" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="btnComputador" layoutX="60.0" layoutY="378.0" mnemonicParsing="false" onAction="#onActionComputador" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: fff;" text="Computador" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="btnReserva" layoutX="60.0" layoutY="309.0" mnemonicParsing="false" onAction="#onActionReserva" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: ffff;" text="Reserva" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Label layoutX="33.0" layoutY="24.0" prefHeight="35.0" prefWidth="164.0" text="    LanHouse" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnSair" layoutX="60.0" layoutY="519.0" mnemonicParsing="false" onAction="#onActionSair" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: fff;" text="Sair" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="600.0" prefWidth="874.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane fx:id="anchorPaneUsuario" layoutX="14.0" layoutY="14.0" prefHeight="290.0" prefWidth="838.0" style="-fx-background-color: #ffff;" visible="false">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Label layoutX="299.0" layoutY="14.0" prefHeight="35.0" prefWidth="240.0" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text="Informções da conta " textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="74.0" layoutY="73.0" prefHeight="27.0" prefWidth="148.0" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text=" Nome do Usuário" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="513.0" layoutY="73.0" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text="Senha" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="senhaUsuario" layoutX="513.0" layoutY="97.0" prefHeight="25.0" prefWidth="251.0" />
+                  <Label layoutX="74.0" layoutY="151.0" prefHeight="27.0" prefWidth="60.0" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text=" Saldo" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="saldoUsuario" layoutX="73.0" layoutY="178.0" prefHeight="25.0" prefWidth="219.0" />
+                  <Label layoutX="513.0" layoutY="144.0" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text="Email" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="emailUsuario" layoutX="513.0" layoutY="178.0" prefHeight="25.0" prefWidth="251.0" />
+                  <Label layoutX="292.0" layoutY="226.0" prefHeight="27.0" prefWidth="24.0" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text=" ID" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="idUsuario" layoutX="320.0" layoutY="227.0" prefHeight="25.0" prefWidth="189.0" />
+                  <TextField fx:id="nomeUsuario" layoutX="74.0" layoutY="97.0" prefHeight="25.0" prefWidth="219.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="anchorPaneNovoUsuario" layoutX="14.0" layoutY="316.0" prefHeight="265.0" prefWidth="835.0" style="-fx-background-color: #fff;" visible="false">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Label layoutX="372.0" layoutY="14.0" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text="Nova conta" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="71.0" layoutY="39.0" prefHeight="27.0" prefWidth="148.0" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text=" Nome do Usuário" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="novoNomeUsuario" layoutX="71.0" layoutY="69.0" prefHeight="25.0" prefWidth="219.0" />
+                  <Label layoutX="71.0" layoutY="114.0" prefHeight="27.0" prefWidth="60.0" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text=" Saldo" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="novoSaldoUsuario" layoutX="71.0" layoutY="141.0" prefHeight="25.0" prefWidth="219.0" />
+                  <Label layoutX="513.0" layoutY="39.0" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text="Senha" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="novaSenhaUsuario" layoutX="513.0" layoutY="69.0" prefHeight="25.0" prefWidth="251.0" />
+                  <Label layoutX="516.0" layoutY="114.0" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text="Email" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="novoEmailUsuario" layoutX="513.0" layoutY="141.0" prefHeight="25.0" prefWidth="251.0" />
+                  <Button fx:id="btnNewAccount" layoutX="362.0" layoutY="208.0" mnemonicParsing="false" onAction="#onActionCreateNewAccount" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text="Criar conta" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="anchorPaneReserva" layoutX="20.0" prefHeight="310.0" prefWidth="835.0" style="-fx-background-color: #fff;" visible="false">
+               <children>
+                  <Label layoutX="376.0" layoutY="14.0" style="-fx-background-color: #6e0ead; -fx-background-radius: 15;" text="Reserva" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="TabelaReserva" layoutX="13.0" layoutY="49.0" prefHeight="251.0" prefWidth="811.0">
+                    <columns>
+                      <TableColumn fx:id="IdReserva" prefWidth="75.0" text="ID Reserva" />
+                      <TableColumn fx:id="IdUsuario" prefWidth="142.0" text="ID usuário" />
+                        <TableColumn fx:id="IdComputador" prefWidth="195.0" text="Nº PC" />
+                        <TableColumn fx:id="HoraInicioReserva" prefWidth="236.0" text="Hora de Inicio" />
+                        <TableColumn fx:id="HoraTerminoReserva" prefWidth="162.0" text="Hora de Termino" />
+                    </columns>
+                  </TableView>
+               </children>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </AnchorPane>
+            <AnchorPane fx:id="anchorPaneReservaCRUD" layoutX="20.0" layoutY="328.0" prefHeight="265.0" prefWidth="835.0" style="-fx-background-color: #ffff;" visible="false">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Label layoutX="65.0" layoutY="51.0" text="ID da Reserva : " />
+                  <TextField fx:id="txtIdReservaButtonReserva" layoutX="147.0" layoutY="47.0" />
+                  <Label layoutX="65.0" layoutY="97.0" text="Nº do Usuário : " />
+                  <TextField fx:id="txtIdUsuarioButtonReserva" layoutX="150.0" layoutY="93.0" />
+                  <Button fx:id="btnAdicionarReserva" layoutX="149.0" layoutY="160.0" mnemonicParsing="false" onAction="#onActionAdicionarReserva" prefHeight="60.0" prefWidth="130.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: #000000;" text="Adicionar">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btnEliminarReserva" layoutX="328.0" layoutY="160.0" mnemonicParsing="false" onAction="#onActionEliminarReserva" prefHeight="60.0" prefWidth="130.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: #000000;" text="Eliminar">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btnEditarReserva" layoutX="499.0" layoutY="160.0" mnemonicParsing="false" onAction="#onActionEditarReserva" prefHeight="60.0" prefWidth="130.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: #000000;" text="Editar">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="328.0" layoutY="72.0" text="Nº do PC : " />
+                  <TextField fx:id="txtNumeroPcButtonReserva" layoutX="393.0" layoutY="68.0" />
+                  <Label layoutX="586.0" layoutY="51.0" text="Hora de Inicio  : " />
+                  <TextField fx:id="txtHoraInicioButtonReserva" layoutX="673.0" layoutY="47.0" />
+                  <Label layoutX="574.0" layoutY="97.0" text="Hora de Termino : " />
+                  <TextField fx:id="txtHoraTerminoButtonReserva" layoutX="673.0" layoutY="93.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="anchorPaneComputador" layoutX="20.0" layoutY="14.0" prefHeight="567.0" prefWidth="835.0" style="-fx-background-color: #ffff;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Label layoutX="352.0" layoutY="14.0" prefHeight="30.0" prefWidth="131.0" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text="Computadores" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <TableView fx:id="TabelaComputador" layoutX="23.0" layoutY="54.0" prefHeight="493.0" prefWidth="373.0" style="-fx-background-color: #6e0ead;">
+                    <columns>
+                      <TableColumn fx:id="NumPcTabelaComputador" prefWidth="120.0" text="Nº do Computador" />
+                      <TableColumn fx:id="NomePcTabelaComputador" prefWidth="136.0" text="Nome do PC" />
+                        <TableColumn fx:id="StatusPcTabelaComputador" prefWidth="116.0" text="Status" />
+                    </columns>
+                  </TableView>
+                  <Label layoutX="469.0" layoutY="102.0" text="Nº do Computador : " />
+                  <Label layoutX="504.0" layoutY="173.0" text="Nome do PC : " />
+                  <Label layoutX="504.0" layoutY="246.0" text="Status do PC : " />
+                  <TextField fx:id="txtIdPcButtonComputador" layoutX="595.0" layoutY="98.0" />
+                  <TextField fx:id="txtNomePcButtonComputador" layoutX="595.0" layoutY="169.0" />
+                  <TextField fx:id="txtStatusPcButtonComputador" layoutX="595.0" layoutY="242.0" />
+                  <Button fx:id="btnAdicionarButtonComputador" layoutX="499.0" layoutY="386.0" mnemonicParsing="false" onAction="#onActionAdicionarComputador" text="Adicionar" />
+                  <Button fx:id="btnEliminarButtonComputador" layoutX="607.0" layoutY="386.0" mnemonicParsing="false" onAction="#onActionEliminarComputador" text="Eliminar" />
+                  <Button fx:id="btnEditarButtonComputador" layoutX="718.0" layoutY="386.0" mnemonicParsing="false" onAction="#onActionEditarComputador" text="Editar" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="anchorPaneTransacoes" layoutX="20.0" layoutY="7.0" prefHeight="586.0" prefWidth="841.0" style="-fx-background-color: #fff;" visible="false">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Label layoutX="407.0" layoutY="28.0" style="-fx-background-color: #35006e; -fx-background-radius: 15;" text="Transações" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="97.0" layoutY="146.0" text="Saldo atual : ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtSaldoAtualButtonTransacoes" layoutX="177.0" layoutY="143.0" />
+                  <Label layoutX="460.0" layoutY="146.0" text="Quantidade a depositar : ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtQtdDepositarButtonTransacoes" layoutX="617.0" layoutY="143.0" />
+                  <TextField fx:id="txtTransacaoFeitaButtonTransacoes" layoutX="409.0" layoutY="308.0" />
+                  <Label layoutX="303.0" layoutY="311.0" text="Transação feita : ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnCalcularButtonTransacao" layoutX="394.0" layoutY="462.0" mnemonicParsing="false" onAction="#onActionButtonCalcular" prefHeight="46.0" prefWidth="120.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: #000000;" text="Calcular Transação">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -4,39 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="483bc9cb-6ddf-4e7e-909e-59f934d66b5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagens/LanHouse.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagens/gamers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Computador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/ComputadorDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/ConfiguraçaoDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/PrincipalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Reserva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/ReservaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Transacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/TransacoesDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/UsuarioDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/tgpsi_m19_n15_otacilio_alves1/Login.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/tgpsi_m19_n15_otacilio_alves1/Principal.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/tgpsi_m19_n15_otacilio_alves1/imagens/LanHouse.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/example/tgpsi_m19_n15_otacilio_alves1/imagens/gamers.jpg" afterDir="false" />
+    <list default="true" id="483bc9cb-6ddf-4e7e-909e-59f934d66b5c" name="Changes" comment="Agora">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/PrincipalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/PrincipalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/UsuarioDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "WolfStormPT"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/WolfStormPT/TGPSI_M19_N15_Otacilio_Alves1.git",
+    "accountId": "b72070df-33db-4a4c-9e63-9099dd3261ef"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/tgpsi_m19_n15_otacilio_alves1/Settings.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -109,10 +92,32 @@
       <option name="presentableId" value="Default" />
       <updated>1714649618027</updated>
     </task>
+    <task id="LOCAL-00001" summary="Agora">
+      <option name="closed" value="true" />
+      <created>1716417713750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716417713750</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Agora" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agora" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

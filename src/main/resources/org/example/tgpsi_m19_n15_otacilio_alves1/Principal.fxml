@@ -22,19 +22,19 @@
                   <Image url="@../../../../../../imagens/LanHouse.jpg" />
                </image>
             </ImageView>
-            <Button fx:id="btnTransacoes" layoutX="60.0" layoutY="447.0" mnemonicParsing="false" onAction="#onActionTransacoes" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: fff;" text="Transações" textFill="WHITE">
+            <Button fx:id="btnTransacoes" layoutX="60.0" layoutY="481.0" mnemonicParsing="false" onAction="#onActionTransacoes" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: fff;" text="Transações" textFill="WHITE">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Button>
-            <Button fx:id="btnUsuario" layoutX="60.0" layoutY="235.0" mnemonicParsing="false" onAction="#onActionUsuario" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: transparent; -fx-border-color: fff;" text="Usuário" textFill="WHITE">
+            <Button fx:id="btnUsuario" layoutX="60.0" layoutY="292.0" mnemonicParsing="false" onAction="#onActionUsuario" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: transparent; -fx-border-color: fff;" text="Usuário" textFill="WHITE">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Button>
-            <Button fx:id="btnComputador" layoutX="60.0" layoutY="378.0" mnemonicParsing="false" onAction="#onActionComputador" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: fff;" text="Computador" textFill="WHITE">
+            <Button fx:id="btnComputador" layoutX="60.0" layoutY="418.0" mnemonicParsing="false" onAction="#onActionComputador" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: fff;" text="Computador" textFill="WHITE">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Button>
-            <Button fx:id="btnReserva" layoutX="60.0" layoutY="309.0" mnemonicParsing="false" onAction="#onActionReserva" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: ffff;" text="Reserva" textFill="WHITE">
+            <Button fx:id="btnReserva" layoutX="60.0" layoutY="355.0" mnemonicParsing="false" onAction="#onActionReserva" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: ffff;" text="Reserva" textFill="WHITE">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Button>
@@ -43,7 +43,12 @@
                   <Font name="System Bold" size="24.0" />
                </font>
             </Label>
-            <Button fx:id="btnSair" layoutX="60.0" layoutY="519.0" mnemonicParsing="false" onAction="#onActionSair" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: fff;" text="Sair" textFill="WHITE">
+            <Button fx:id="btnSair" layoutX="60.0" layoutY="540.0" mnemonicParsing="false" onAction="#onActionSair" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: trans; -fx-border-color: fff;" text="Sair" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnAcercaDe" layoutX="60.0" layoutY="235.0" mnemonicParsing="false" onAction="#onActionAcercaDe" prefHeight="46.0" prefWidth="110.0" style="-fx-background-radius: 30; -fx-background-color: transparent; -fx-border-color: fff;" text="Acerca de" textFill="WHITE">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -193,7 +198,7 @@
                   <TextField fx:id="txtHoraTerminoButtonReserva" layoutX="673.0" layoutY="93.0" />
                </children>
             </AnchorPane>
-            <AnchorPane fx:id="anchorPaneComputador" layoutX="20.0" layoutY="14.0" prefHeight="567.0" prefWidth="835.0" style="-fx-background-color: #ffff;">
+            <AnchorPane fx:id="anchorPaneComputador" layoutX="20.0" layoutY="14.0" prefHeight="567.0" prefWidth="835.0" style="-fx-background-color: #ffff;" visible="false">
                <effect>
                   <DropShadow />
                </effect>
@@ -203,12 +208,15 @@
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </Label>
-                  <TableView fx:id="TabelaComputador" layoutX="23.0" layoutY="54.0" prefHeight="493.0" prefWidth="373.0" style="-fx-background-color: #6e0ead;">
+                  <TableView fx:id="TabelaComputador" layoutX="23.0" layoutY="54.0" prefHeight="493.0" prefWidth="373.0" style="-fx-background-color: #fff;">
                     <columns>
                       <TableColumn fx:id="NumPcTabelaComputador" prefWidth="120.0" text="Nº do Computador" />
                       <TableColumn fx:id="NomePcTabelaComputador" prefWidth="136.0" text="Nome do PC" />
                         <TableColumn fx:id="StatusPcTabelaComputador" prefWidth="116.0" text="Status" />
                     </columns>
+                     <effect>
+                        <DropShadow />
+                     </effect>
                   </TableView>
                   <Label layoutX="469.0" layoutY="102.0" text="Nº do Computador : " />
                   <Label layoutX="504.0" layoutY="173.0" text="Nome do PC : " />
@@ -216,9 +224,9 @@
                   <TextField fx:id="txtIdPcButtonComputador" layoutX="595.0" layoutY="98.0" />
                   <TextField fx:id="txtNomePcButtonComputador" layoutX="595.0" layoutY="169.0" />
                   <TextField fx:id="txtStatusPcButtonComputador" layoutX="595.0" layoutY="242.0" />
-                  <Button fx:id="btnAdicionarButtonComputador" layoutX="499.0" layoutY="386.0" mnemonicParsing="false" onAction="#onActionAdicionarComputador" text="Adicionar" />
-                  <Button fx:id="btnEliminarButtonComputador" layoutX="607.0" layoutY="386.0" mnemonicParsing="false" onAction="#onActionEliminarComputador" text="Eliminar" />
-                  <Button fx:id="btnEditarButtonComputador" layoutX="718.0" layoutY="386.0" mnemonicParsing="false" onAction="#onActionEditarComputador" text="Editar" />
+                  <Button fx:id="btnAdicionarButtonComputador" layoutX="433.0" layoutY="386.0" mnemonicParsing="false" onAction="#onActionAdicionarComputador" prefHeight="48.0" prefWidth="110.0" style="-fx-background-color: trans; -fx-border-color: #000000;" text="Adicionar" />
+                  <Button fx:id="btnEliminarButtonComputador" layoutX="573.0" layoutY="386.0" mnemonicParsing="false" onAction="#onActionEliminarComputador" prefHeight="48.0" prefWidth="110.0" style="-fx-background-color: trans; -fx-border-color: #000000;" text="Eliminar" />
+                  <Button fx:id="btnEditarButtonComputador" layoutX="711.0" layoutY="386.0" mnemonicParsing="false" onAction="#onActionEditarComputador" prefHeight="48.0" prefWidth="110.0" style="-fx-background-color: trans; -fx-border-color: #000000;" text="Editar" />
                </children>
             </AnchorPane>
             <AnchorPane fx:id="anchorPaneTransacoes" layoutX="20.0" layoutY="7.0" prefHeight="586.0" prefWidth="841.0" style="-fx-background-color: #fff;" visible="false">
@@ -254,6 +262,33 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </Button>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="anchorPaneAcercaDe" layoutX="20.0" layoutY="14.0" prefHeight="578.0" prefWidth="842.0" style="-fx-background-color: #ffff;">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <Label alignment="CENTER" layoutX="68.0" layoutY="14.0" prefHeight="51.0" prefWidth="706.0" text="AcercaDe">
+                     <font>
+                        <Font name="System Bold" size="37.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="1.0" layoutY="192.0" prefHeight="64.0" prefWidth="379.0" text="Feito pelo Otacilio Alves">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="9.0" layoutY="276.0" prefHeight="48.0" prefWidth="379.0" text="Da turma 2ºGi2">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="9.0" layoutY="366.0" prefHeight="48.0" prefWidth="362.0" text="Da Escola Ferreira Dias">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
                </children>
             </AnchorPane>
          </children>

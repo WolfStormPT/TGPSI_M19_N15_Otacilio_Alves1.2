@@ -23,6 +23,10 @@ import java.util.ResourceBundle;
 
 public class PrincipalController implements Initializable {
     @FXML
+    private AnchorPane anchorPaneAcercaDe;
+    @FXML
+    private Button btnAcercaDe;
+    @FXML
     private Button btnAdicionarButtonComputador;
     @FXML
     private Button btnEliminarButtonComputador;
@@ -122,7 +126,15 @@ public class PrincipalController implements Initializable {
     private TextField novoEmailUsuario;
 
 // Botões //
-
+    public void onActionAcercaDe(ActionEvent actionEvent) {
+        anchorPaneAcercaDe.setVisible(true);
+        anchorPaneReserva.setVisible(false);
+        anchorPaneUsuario.setVisible(false);
+        anchorPaneNovoUsuario.setVisible(false);
+        anchorPaneReservaCRUD.setVisible(false);
+        anchorPaneTransacoes.setVisible(false);
+        anchorPaneComputador.setVisible(false);
+    }
     public void onActionTransacoes(ActionEvent actionEvent) {
         anchorPaneReserva.setVisible(false);
         anchorPaneUsuario.setVisible(false);
@@ -130,6 +142,8 @@ public class PrincipalController implements Initializable {
         anchorPaneReservaCRUD.setVisible(false);
         anchorPaneTransacoes.setVisible(true);
         anchorPaneComputador.setVisible(false);
+        anchorPaneAcercaDe.setVisible(false);
+
     }
 
     public void onActionUsuario(ActionEvent actionEvent) {
@@ -139,6 +153,8 @@ public class PrincipalController implements Initializable {
         anchorPaneReservaCRUD.setVisible(false);
         anchorPaneTransacoes.setVisible(false);
         anchorPaneComputador.setVisible(false);
+        anchorPaneAcercaDe.setVisible(false);
+
     }
 
     public void onActionComputador(ActionEvent actionEvent) {
@@ -148,6 +164,8 @@ public class PrincipalController implements Initializable {
         anchorPaneReservaCRUD.setVisible(false);
         anchorPaneTransacoes.setVisible(false);
         anchorPaneComputador.setVisible(true);
+        anchorPaneAcercaDe.setVisible(false);
+
     }
 
     public void onActionReserva(ActionEvent actionEvent) {
@@ -157,6 +175,8 @@ public class PrincipalController implements Initializable {
         anchorPaneReservaCRUD.setVisible(true);
         anchorPaneTransacoes.setVisible(false);
         anchorPaneComputador.setVisible(false);
+        anchorPaneAcercaDe.setVisible(false);
+
         listReserva();
     }
 
@@ -530,4 +550,4 @@ public class PrincipalController implements Initializable {
             }
         });
     }
- }
+}
